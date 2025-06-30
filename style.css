@@ -1,0 +1,31 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff8f0;
+    color: #333;
+    text-align: center;
+}
+header {
+    padding: 20px;
+    background-color: #ffdfb0;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 40px auto;
+    max-width: 300px;
+}
+.menu a {
+    background: #ffa726;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.menu a:hover {
+    background: #fb8c00;
+}
